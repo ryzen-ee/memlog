@@ -378,6 +378,8 @@ fn print_usage(program: &str) {
     println!("  --baseline <NAME>     Use named baseline for scoring");
     println!("  --verbose, -v         Show full details (alias for --format verbose)");
     println!("  --help, -h            Show this help message");
+    println!();
+    println!("By Ryzen <3");
 }
 
 fn parse_args() -> (
